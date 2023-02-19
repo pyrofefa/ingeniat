@@ -12,7 +12,7 @@ const service = new PublicationsService();
 //End-point 6.
 router.get('/', 
     passport.authenticate('jwt', { session: false }),
-    checkRoles('alto','medio','alto medio'),
+    checkRoles('alto','medio','alto medio','medio alto'),
     async (req, res, next) => {
     try {
         const publicactions = await service.find();
@@ -25,7 +25,7 @@ router.get('/',
 //End-point 3
 router.post('/',
   passport.authenticate('jwt', { session: false }),
-  checkRoles('alto'),
+  checkRoles('alto','alto medio','medio alto'),
   validatorHandler(createPublicationSchema, 'body'),
   async (req, res, next) => {
     try {
