@@ -11,7 +11,9 @@ _Puedes acceder a la api ya sea copiando en proyecto o entrando a:_
 ```
 ## Rutas 
 
-| /  | Inicio  | GET |
+| Ruta     | Tipo |
+| ---      | ---       |
+| /  | GET |
 | api/v1/auth/login | POST |
 | api/v1/users | POST |
 | api/v1/publications  | GET  |
