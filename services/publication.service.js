@@ -17,7 +17,7 @@ class PublicationsService {
                 model: models.User,
                 attributes: ['name', 'lastName', 'role']
             }],
-            attributes: ['title', 'description', 'createdAt']
+            attributes: ['id', 'title', 'description', 'createdAt']
 
         });
         return rta;
