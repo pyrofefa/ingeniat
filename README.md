@@ -1,4 +1,4 @@
-# Api para ingeniat del Proyecto
+# Api para ingeniat
 
 _Proyecto de creación de una API REST de usuarios y publicaciones. Desarrollada en node.js_ 
 
@@ -26,7 +26,7 @@ _Puedes acceder a la api ya sea copiando en proyecto o entrando a:_
 
 Para mas Información de los parametros del request [Wiki](https://github.com/pyrofefa/ingeniat/wiki)
 
-## Construido con 🛠️
+## Construido 🛠️
 
 _Node con:_
 
