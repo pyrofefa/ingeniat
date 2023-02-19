@@ -32,7 +32,7 @@ _Node con:_
 
 * [express](https://expressjs.com/) - Manejo de peticiones
 * [sequelize](https://sequelize.org/) - Conexión a Base de datos
-* [passport](hhttps://www.passportjs.org/) - Autenticación
+* [passport](https://www.passportjs.org/) - Autenticación
 * [jwt](https://jwt.io/) - Tokens 
 * [Joi](https://npmjs.com/package/joi) - Validaciones 
 
